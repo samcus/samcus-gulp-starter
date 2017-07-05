@@ -1,0 +1,48 @@
+{
+  "name": "samcus-gulp-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "NODE_ENV=development gulp",
+    "serve:dev": "NODE_ENV=development gulp",
+    "build": "NODE_ENV=production gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samcus/samcus-gulp-starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "starter",
+    "kit",
+    "javascript",
+    "build"
+  ],
+  "author": "Samuel Anthony Custer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcus/samcus-gulp-starter/issues"
+  },
+  "homepage": "https://github.com/samcus/samcus-gulp-starter#readme",
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "doiuse": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jsinspect": "^2.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sass-lint": "^1.3.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "node-notifier": "^5.1.2"
+  }
+}

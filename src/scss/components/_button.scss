@@ -1,0 +1,14 @@
+
+@mixin button($selector){
+    #{$selector}{
+        background: #3A024B;
+        display: inline-block;
+        width: auto;
+        margin: auto;
+        padding: .5rem;
+        font-size: .9rem;
+        cursor: pointer;
+    }
+}
+
+@include button('.button');
