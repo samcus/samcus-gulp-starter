@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/samcus/samcus-gulp-starter#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "bluebird": "^3.5.0",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
